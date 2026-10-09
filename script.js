@@ -331,11 +331,11 @@ console.log("data length:", data ? data.length : "DATA IS EMPTY");
 fetch("https://pipe.jspsych.org/api/data/", {
   method: "POST",
   headers: {
-    "Content-Type": "Il0l4S0ba7yx",
+    "Content-Type": "application/json",
     Accept: "*/*",
   },
   body: JSON.stringify({
-    experimentID: "b8QQo6TPKpFS",
+    experimentID: "Il0l4S0ba7yx",
     filename: filename,
     data: data,
   }),
